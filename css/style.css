@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+p {
+    text-indent: 50px;
+}
+
+#interface {
+    width: 1900px;
+    height: 3100px;
+    background-color: rgba(196, 196, 196, 1);
+    position: absolute;
+    left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#interface-scape {
+    width: 1900px;
+    height: 1200px;
+    background-color: rgba(196, 196, 196, 1);
+    position: absolute;
+    left: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30pt;
+}
+
+#cabecalho {
+    background-color: rgba(9, 8, 255, 0.5);
+    height: 170px;
+}
+
+#logo {
+    width: 300px;
+    height: 150px;
+}
+
+a.navegação{
+    color: white;
+    text-decoration: none;
+}
+
+a.raspberry {
+    color: rgba(9, 8, 255, 0.5);
+    text-decoration: none;
+}
+
+p#intro {
+    text-align: center;
+    font-size: 40pt;
+}
+
+ul {
+    list-style: none;
+}
+
+#cabecalho ul li a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#cabecalho ul {
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+
+#cabecalho ul li {
+    display: inline-block;
+    position: relative;
+    margin-left: 300px;
+}
+
+section#corpo-principal {
+    display: block;
+    width: 1200px;
+    float: left;
+    padding: 10px;
+    font-size: 30pt;
+    border-right: 1px solid rgb(0, 0, 0);
+    padding-right: 80pt;
+}
+
+aside#mais {
+    display: block;
+    width: 570px;
+    float: right;
+    font-size: 30pt;
+    text-align: center;
+}
+
+footer#rodape {
+    clear: both;
+    font-size: 25pt;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+#interface-topicos {
+    width: 1900px;
+    height: 1500px;
+    background-color: rgba(196, 196, 196, 1);
+    position: absolute;
+    left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section#corpo-principal-topicos {
+    display: block;
+    width: 1200px;
+    float: left;
+    padding: 10px;
+    font-size: 30pt;
+    padding-right: 80pt;
+}
+
+section ul#list-topics, a {
+    color: rgb(0, 0, 0);
+    font-size: 80pt;
+    text-decoration: none;
+    padding-bottom: 80pt;
+
+}
+
+aside#mais {
+    display: block;
+    width: 570px;
+    float: right;
+    font-size: 30pt;
+    text-align: center;
+}
